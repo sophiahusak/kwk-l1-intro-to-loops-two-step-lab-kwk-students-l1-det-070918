@@ -50,7 +50,7 @@ def break_dance
    loop do
  steps += 1 
  puts "#{steps}"
-  elsif steps % 2 == 0
+  if steps % 2 == 0
    puts "Left"
 else 
   puts "Right"
