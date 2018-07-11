@@ -37,7 +37,7 @@ def how_many_steps?
  steps += 1 
  puts "#{steps}"
  if steps % 2 == 0
-   puts "Right"
+   puts "Le"
 else 
   puts "Left"
   sleep (0.5)
