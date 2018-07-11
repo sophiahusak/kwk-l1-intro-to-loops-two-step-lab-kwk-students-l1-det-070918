@@ -8,12 +8,14 @@ def first_steps
     sleep (0.5)
     puts "Stop"
     sleep (0.5)
+  end
 end
 
 def a_few_more_steps
   loop do 
     puts "Right foot back"
    puts "Left foot back"
+ end
 end
 
 def how_many_steps?
@@ -26,6 +28,7 @@ def how_many_steps?
 else 
   puts "Left"
   sleep (0.5)
+end
 end
 
 def break_dance
@@ -40,4 +43,5 @@ def break_dance
 else 
   puts "Left"
   sleep (0.5)
+end
 end
