@@ -7,14 +7,27 @@ def first_steps
     puts "Right foot back"
     sleep (0.5)
     puts "Stop"
-    sleep (0.5)
+    sleep (1)
+    break
   end
 end
 
 def a_few_more_steps
   loop do 
+     puts "Right foot back"
+    sleep (0.5)
+    puts "Left foot back"
+    sleep (0.5)
     puts "Right foot back"
-   puts "Left foot back"
+    sleep (0.5)
+    puts "Stop"
+    sleep (0.5)
+    puts "Right foot steps right and back"
+   puts "Left foot crosses over right"
+   puts "Right foot steps right"
+   puts "Turn"
+   sleep(1)
+   break
  end
 end
 
