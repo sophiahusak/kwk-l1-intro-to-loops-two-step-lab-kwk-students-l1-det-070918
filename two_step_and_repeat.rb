@@ -31,4 +31,16 @@ end
 def break_dance
   # Write a solution that uses the same code as how_many_steps?, but breaks the
   # loop if steps is equal to 6
+   loop do
+ steps = 0 
+ steps += 1 
+ puts "#{steps} steps"
+ if steps ==6
+   break 
+  elsif steps % 2 == 0
+   puts "Right"
+else 
+  puts "Left"
+  sleep (0.5)
+
 end
