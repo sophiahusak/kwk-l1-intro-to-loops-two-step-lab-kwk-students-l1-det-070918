@@ -33,7 +33,7 @@ def break_dance
  steps = 0 
  steps += 1 
  puts "#{steps} steps"
- if steps ==6
+ if steps == 6
    break 
   elsif steps % 2 == 0
    puts "Right"
