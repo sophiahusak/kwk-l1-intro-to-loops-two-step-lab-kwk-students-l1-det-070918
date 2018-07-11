@@ -20,6 +20,8 @@ def how_many_steps?
   loop do
  steps = 0 
  steps += 1 
+ puts "#{steps} steps"
+ 
  
   # Write a loop that fulfills all criteria from Part 3 of the README.md
 end
